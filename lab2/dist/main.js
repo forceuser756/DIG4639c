@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".card {\\r\\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\\r\\nmax-width: 300px;\\r\\nmargin: auto;\\r\\ntext-align: center;\\r\\n}\\r\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/Card/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\r\\n.card {\\r\\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\\r\\nmax-width: 300px;\\r\\nmargin: auto;\\r\\ntext-align: center;\\r\\n}\\r\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/Card/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
