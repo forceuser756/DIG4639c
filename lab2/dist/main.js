@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".card {\\r\\n  background-color: magenta;\\r\\n  color: white;\\r\\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\\r\\nmax-width: 300px;\\r\\nmargin: auto;\\r\\ntext-align: center;\\r\\n}\\r\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/Card/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".card {\\r\\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\\r\\nmax-width: 300px;\\r\\nmargin: auto;\\r\\ntext-align: center;\\r\\n}\\r\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/Card/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -129,7 +129,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nclass Element {\r\n  constructor(element) {\r\n    this.element = document.createElement(element);\r\n  }\r\n\r\n  render(content){\r\n    this.element.innerHTML = content;\r\n    document.appendChild(this.element);\r\n  }\r\n}\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (Element);\r\n\n\n//# sourceURL=webpack:///./src/Element.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nclass Element {\r\n  constructor(element) {\r\n    this.element = document.createElement(element);\r\n  }\r\n\r\n  render(content) {\r\n    this.element.innerHTML = content;\r\n    document.appendChild(this.element);\r\n  }\r\n}\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (Element);\r\n\n\n//# sourceURL=webpack:///./src/Element.js?");
 
 /***/ }),
 

@@ -3,7 +3,7 @@ class Element {
     this.element = document.createElement(element);
   }
 
-  render(content){
+  render(content) {
     this.element.innerHTML = content;
     document.appendChild(this.element);
   }
