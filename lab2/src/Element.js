@@ -5,7 +5,7 @@ class Element {
 
   render(content) {
     this.element.innerHTML = content;
-    document.appendChild(this.element);
+    document.body.appendChild(this.element);
   }
 }
 
