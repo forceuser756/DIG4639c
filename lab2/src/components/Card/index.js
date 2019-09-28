@@ -5,7 +5,8 @@ class Card {
     this.props = props;
   }
   render(){
-    return `<div class="card">${this.props.content}</div>`;
+    return `<div class="Card">${this.props.content}
+    <p>Card should display this content</p></div>`;
   }
 
 }
