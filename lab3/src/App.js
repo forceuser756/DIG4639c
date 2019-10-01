@@ -6,10 +6,11 @@ import Card from "./components/Card/index.js";
 function App() {
   return (
     <div className="App">
+    <Card content="This is a card!"></Card>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. Cool, huh?
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,9 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
-      <Card content="This is a card!"></Card>
-    </div>
 
+    </div>
   );
 }
 
