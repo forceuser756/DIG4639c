@@ -30,7 +30,7 @@ class SeeProfile extends React.Component{
     }
     render() {
         return(
-            <div className="seeProfile">
+            <div>
               <h1>Welcome {this.state.profile.name}</h1>
               <p>There are {this.state.profile.count} profiles.</p>
             </div>
